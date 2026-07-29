@@ -1,3 +1,7 @@
+# Hi there, I'm Biradhwaj 👋
+
+> *Product Designer • Builder • Creating Grid.Pe*
+
 <!-- STATS_START -->
 
 | | |
@@ -70,33 +74,106 @@
 =--=====--------=--=--------=++*+++*%%%##############******##%@%=------===----=++==#*=-----------=+=
 =----===++======-------------=++++++#@%%###########******##%@@@*-----====--=--=##+=**------------===
 ``` | ```text
-keyushhh@github
-----------------------------------------
+biradhwaj@github
+────────────────────────────────────────────
 
-OS:..................... Product Designer
-Company:................ Wozku
-Building:............... Grid.Pe
-Location:............... Bangalore, India
+OS.................... Product Designer
+Company............... Wozku
+Building.............. Grid.Pe
+Location.............. Bangalore, India
 
-Uptime:................. 3 years, 11 months, 18 days
-Public Repos:........... 14
-Followers:.............. 0
-Following:.............. 1
+Experience............ 5+ Years
 
-Top Languages:.......... TypeScript
-......................... HTML
-......................... JavaScript
-......................... CSS
-......................... R
+Languages............. TypeScript
+...................... React
+...................... Python
+...................... HTML/CSS
 
-GitHub Stats
-----------------------------------------
+Design................ Figma
+...................... Framer
+...................... Design Systems
 
-Repos:.................. 14
-Stars:.................. 1
-Followers:.............. 0
+AI.................... Claude Code
+...................... Codex
+...................... Cursor
 
-Last Updated:........... 2026-07-29 14:37 UTC
+────────────────────────────────────────────
+
+GitHub
+
+Public Repos.......... 14
+Stars................. 1
+Followers............. 0
+Following............. 1
+
+Top Languages......... TypeScript
+...................... HTML
+...................... JavaScript
+...................... CSS
+...................... R
+
+Last Updated.......... 2026-07-29 14:37 UTC
 ``` |
 
 <!-- STATS_END -->
+
+---
+
+## 🚀 Current Projects
+
+- 🟢 **Grid.Pe** - Doorstep cash withdrawal platform
+- 🎨 **Design System Studio** - Browser-native design system builder
+- 🌐 **Portfolio** - Product design case studies
+
+---
+
+## 🛠 Tech Stack
+
+![Figma](https://img.shields.io/badge/Figma-000?style=for-the-badge&logo=figma)
+![Framer](https://img.shields.io/badge/Framer-000?style=for-the-badge&logo=framer)
+![TypeScript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript)
+![React](https://img.shields.io/badge/React-000?style=for-the-badge&logo=react)
+![Tailwind](https://img.shields.io/badge/Tailwind-000?style=for-the-badge&logo=tailwindcss)
+![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python)
+![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=keyushhh&show_icons=true&theme=transparent&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=keyushhh&layout=compact&theme=transparent&hide_border=true"/>
+
+</p>
+
+---
+
+## 🔥 GitHub Streak
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=keyushhh&theme=transparent&hide_border=true"/>
+
+</p>
+
+---
+
+## 📈 Contribution Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=keyushhh&theme=github-compact&hide_border=true"/>
+
+</p>
+
+---
+
+## 🌐 Connect
+
+- 🌍 Portfolio: https://biradhwaj.framer.website
+- 💼 LinkedIn: *(add your LinkedIn URL)*
+- 📧 Email: *(your email)*
