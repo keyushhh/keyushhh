@@ -1,60 +1,40 @@
-name: Update README Stats
+name: Update Profile SVG
 
 on:
-  schedule:
-    # Runs every day at 04:00 UTC
-    - cron: "0 4 * * *"
-
-  # Allows manual execution from the Actions tab
   workflow_dispatch:
 
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
 jobs:
-  update-readme:
+  update:
+
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
-    concurrency:
-      group: update-readme
-      cancel-in-progress: true
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
+      - run: pip install requests
+
+      - run: python generate_svg.py
+
+      - name: Commit
+
         run: |
-          python -m pip install --upgrade pip
-          pip install requests
 
-      - name: Generate README
-        env:
-          GH_USERNAME: ${{ github.repository_owner }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python generate_readme.py
+          git config user.name github-actions
+          git config user.email github-actions@github.com
 
-      - name: Commit and push changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg light_mode.svg
 
-          git add README.md
+          git diff --cached --quiet || git commit -m "Update profile SVG"
 
-          if git diff --cached --quiet; then
-            echo "README is already up to date."
-            exit 0
-          fi
-
-          git commit -m "Auto-update README stats"
-
-          git pull --rebase origin main
-
-          git push origin main
+          git push
