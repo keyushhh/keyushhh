@@ -3,18 +3,18 @@
 <!-- STATS_START -->
 ```
 keyushhh@github ----------------------------------------
-. Uptime: .................... (auto-generated on first run)
-. Public Repos: ...............
-. Followers: ...................
-. Following: ...................
+. Uptime: .................... 3 years, 11 months, 18 days
+. Public Repos: ............... 14
+. Followers: ................... 0
+. Following: ................... 1
 
-. Top Languages: ..............
+. Top Languages: .............. TypeScript, HTML, JavaScript, CSS, R
 
-- GitHub Stats ------------------------------
-. Repos: ......................
-. Stars: ......................
-. Followers: ...................
-. Last updated: ................
+- GitHub Stats -------------------------------
+. Repos: ...................... 14
+. Stars: ...................... 1
+. Followers: .................. 0
+. Last updated: .............. 2026-07-29 14:27 UTC
 ```
 <!-- STATS_END -->
 
